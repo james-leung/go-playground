@@ -14,4 +14,7 @@ migrateup:
 migratedown:
 	migrate -path db/migration -database "postgres://postgres:admin@localhost:5432/todo_list?sslmode=disable" -verbose down
 
-.PHONY: runpostgres createdb dropdb migrateup migratedown
+sqlc_generate:
+	sqlc generate
+
+.PHONY: runpostgres createdb dropdb migrateup migratedown sqlc_generate
