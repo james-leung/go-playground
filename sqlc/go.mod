@@ -11,6 +11,7 @@ require (
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/kyleconroy/sqlc v1.15.0 // indirect
+	github.com/lib/pq v1.10.6 // indirect
 	github.com/pganalyze/pg_query_go/v2 v2.1.2 // indirect
 	github.com/pingcap/errors v0.11.5-0.20210425183316-da1aaba5fb63 // indirect
 	github.com/pingcap/log v0.0.0-20210906054005-afc726e70354 // indirect
